@@ -7,7 +7,7 @@ Future implementations:
 - Implement custom UITableViewCells to mock up the iOS7 Clock (Stopwatch) feature.
   - Add Lap 1.. Lap 2... with the corresponding time in the table cell
 - Add a countdown timer
-
+- Implement a SWIFT version of the application
 
 If there are anything that I can do to improve the way I coded this, please feel free to send me a message/email.
 
