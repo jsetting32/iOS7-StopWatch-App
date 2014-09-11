@@ -19,6 +19,8 @@
 		1E2F2B9C19C1A97A009188FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2F2B8419C1A97A009188FD /* UIKit.framework */; };
 		1E2F2BA419C1A97A009188FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F2BA219C1A97A009188FD /* InfoPlist.strings */; };
 		1E2F2BA619C1A97A009188FD /* iOS7_StopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F2BA519C1A97A009188FD /* iOS7_StopWatchTests.m */; };
+		1E2F2BB319C1A985009188FD /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F2BB019C1A985009188FD /* TimerViewController.m */; };
+		1E2F2BB419C1A985009188FD /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F2BB219C1A985009188FD /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		1E2F2BA119C1A97A009188FD /* iOS7-StopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7-StopWatchTests-Info.plist"; sourceTree = "<group>"; };
 		1E2F2BA319C1A97A009188FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E2F2BA519C1A97A009188FD /* iOS7_StopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7_StopWatchTests.m; sourceTree = "<group>"; };
+		1E2F2BAF19C1A985009188FD /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		1E2F2BB019C1A985009188FD /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		1E2F2BB119C1A985009188FD /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		1E2F2BB219C1A985009188FD /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				1E2F2B8F19C1A97A009188FD /* AppDelegate.h */,
 				1E2F2B9019C1A97A009188FD /* AppDelegate.m */,
+				1E2F2BAF19C1A985009188FD /* TimerViewController.h */,
+				1E2F2BB019C1A985009188FD /* TimerViewController.m */,
+				1E2F2BB119C1A985009188FD /* Timer.h */,
+				1E2F2BB219C1A985009188FD /* Timer.m */,
 				1E2F2B9219C1A97A009188FD /* Images.xcassets */,
 				1E2F2B8719C1A97A009188FD /* Supporting Files */,
 			);
@@ -239,8 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2F2BB319C1A985009188FD /* TimerViewController.m in Sources */,
 				1E2F2B9119C1A97A009188FD /* AppDelegate.m in Sources */,
 				1E2F2B8D19C1A97A009188FD /* main.m in Sources */,
+				1E2F2BB419C1A985009188FD /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
