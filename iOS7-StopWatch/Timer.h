@@ -23,5 +23,4 @@
 - (NSString *) timer;
 - (void)resetTimer;
 - (BOOL)isRunning;
-- (BOOL)hasStarted;
 @end
