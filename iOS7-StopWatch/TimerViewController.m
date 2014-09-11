@@ -26,6 +26,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     if (!(self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) return nil;
+    [self setTitle:@"Stopwatch"];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:self.buttonsView];
     [self.view addSubview:self.stopWatchLabel];
